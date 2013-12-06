@@ -1,0 +1,32 @@
+{
+    "name": "swellcastWidgets",
+    "title": "Swellcast Surf Forecast Widgets",
+    "description": "Display surf forecasts on your website, via swellcast.com.au.",
+    "keywords": [
+        "weather",
+        "surf"
+    ],
+    "version": "1.0.0",
+    "author": {
+        "name": "Swellcast Australia",
+        "url": "http://swellcast.com.au"
+    },
+    "maintainers": [
+        {
+            "name": "Ray Stone",
+            "email": "ray@swellcast.com.au",
+            "url": "http://swellcast.com.au"
+        }
+    ],
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "https://github.com/jquery/jquery-color/blob/2.1.2/MIT-LICENSE.txt"
+        }
+    ],
+    "bugs": "https://github.com/FinelySliced/swellcastWidgets/issues",
+    "homepage": "https://github.com/FinelySliced/swellcastWidgets",
+    "dependencies": {
+        "jquery": ">=1.5"
+    }
+}
