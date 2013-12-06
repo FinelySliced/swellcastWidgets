@@ -1,0 +1,150 @@
+
+
+.swellcast_loading { position: relative; padding: 0 24px; height: 260px;  text-align: center;  letter-spacing: -1px; padding: 0 !important; margin: 0 !important; background: #FFF; background: -webkit-linear-gradient(top, #FFF, #F7F7F7); }
+
+.swellcast_loading p { margin: 0 !important; padding: 120px 0 0 0 !important; color: #BBB !important; font-weight: bold !important; font-size: 18px !important; font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !important; }
+.swellcast_forecast p { margin: 0 !important; }
+
+.swellcast_error { position: relative; padding: 0 24px; height: 260px; line-height: 260px; background: #FFF; text-align: center; color: #F8F8F8; font-size: 22px; letter-spacing: -1px; margin: 0 !important; }
+
+.swellcast_forecast { position: relative; background: #FFF url(http://s3.amazonaws.com/swellcast-images/embed/embed_logo.png) center center no-repeat;  border-radius: 3px; font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !important;  -webkit-font-smoothing: antialiased; }
+
+.swellcast_forecast_header { position: relative; width: 100%; padding: 16px 0 14px 0; border-radius: 3px 3px 0 0; background-color: #FFF; color: #666; overflow: hidden; }
+.swellcast_forecast_footer { position: relative; width: 100%; border-top: 1px solid #f4f4f4; padding: 0; background: #FFF; border-radius: 0 0 3px 3px; height: 36px; overflow: hidden; }
+.swellcast_forecast_chart { position: relative; height: 260px;  }
+
+.swell_scale { position: absolute; left: 24px; right: 24px; height: 1px; border-bottom: 1px dashed #dedede; z-index: 5; display: none; }
+.swell_scale_1 { bottom: 24px; }
+.swell_scale_2 { bottom: 49px; }
+.swell_scale_3 { bottom: 74px; }
+.swell_scale_4 { bottom: 99px; }
+.swell_scale_5 { bottom: 124px; }
+.swell_scale_6 { bottom: 149px; }
+.swell_scale_7 { bottom: 174px; }
+.swell_scale_8 { bottom: 199px; }
+
+.swell_label { position: absolute; left: 0px; width: 17px; padding: 0 3px 0 0; height: 12px; line-height: 12px; text-align: right; background: #FFF; color: #888; font-weight: bold; font-size: 11px; z-index: 10; }
+.swell_label_1 { bottom: 22px; }
+.swell_label_2 { bottom: 47px; }
+.swell_label_3 { bottom: 72px; }
+.swell_label_4 { bottom: 97px; }
+.swell_label_5 { bottom: 122px; }
+.swell_label_6 { bottom: 147px; }
+.swell_label_7 { bottom: 172px; }
+.swell_label_8 { bottom: 197px; }
+
+.wind_label { position: absolute; right: 0px; width: 19px; padding: 0 0 0 0px; height: 12px; line-height: 12px; background: #FFF; color: #888; font-weight: bold; font-size: 11px; z-index: 10; }
+.wind_label_5 { bottom: 22px; }
+.wind_label_10 { bottom: 47px; }
+.wind_label_15 { bottom: 72px; }
+.wind_label_20 { bottom: 97px; }
+.wind_label_25 { bottom: 122px; }
+.wind_label_30 { bottom: 147px; }
+.wind_label_35 { bottom: 172px; }
+.wind_label_40 { bottom: 197px; }
+
+.full_outlook_inner { position: relative; margin: 0 24px; z-index: 15; }
+
+
+
+.full_outlook { list-style: none; width: 100%; height: 260px; padding: 0 !important; margin: 0 !important; }
+.full_outlook li { position: relative; float: left;  width: 25%; height: 260px; padding: 0 !important; margin: 0 !important; }
+.full_outlook h6 { position: absolute; top: 18px; left: 0px; width: 100%; font-size: 13px; font-weight: bold; color: #888; text-align: center; z-index: 500; padding: 0 !important; margin: 0 !important;  }
+.full_outlook h6 span { display: block; font-size: 11px; color: #A8A8A8; }
+
+.full_outlook ol { list-style: none; height: 260px; text-align: center; display: none; padding: 0 !important; margin: 0 !important; }
+.full_outlook li:first-child ol { text-align: right; }
+.full_outlook ol.last { text-align: left; }
+.full_outlook ol li { float: none; display: inline-block; zoom: 1; *display: inline; width: 12.5%; height: 260px;  }
+
+.full_outlook li div.swellcast_h_bar { position: absolute; bottom: 0px; left: 0px; right: 1px; background: #80daf9; background: rgba(0,181,243,.5); border-radius: 2px 2px 0 0; }
+
+.full_outlook li div.swellcast_w_arrow { position: absolute; left: 50%; margin-left: -8px; width: 16px; height: 16px; background-image: url(http://s3.amazonaws.com/swellcast-images/embed/embed_wind.png); background-repeat: no-repeat; z-index: 3000; }
+
+.dir_SE { background-position: 0 0; }
+.dir_SSE { background-position: -16px 0; }
+.dir_S { background-position: -32px 0; }
+.dir_SSW { background-position: -48px 0; }
+.dir_SW { background-position: -64px 0; }
+.dir_WSW { background-position: -80px 0; }
+.dir_W { background-position: -96px 0; }
+.dir_WNW { background-position: -112px 0; }
+.dir_NW { background-position: -128px 0; }
+.dir_NNW { background-position: -144px 0; }
+.dir_N { background-position: -160px 0; }
+.dir_NNE { background-position: -176px 0; }
+.dir_NE { background-position: -192px 0; }
+.dir_ENE { background-position: -208px 0; }
+.dir_E { background-position: -224px 0; }
+.dir_ESE { background-position: -240px 0; }
+
+
+
+
+
+
+
+
+
+.swellcast_forecast_chart li:hover li { z-index: 200; }
+.swellcast_forecast_chart li:hover li:hover { z-index: 300; }
+
+
+.vert_1 { position: absolute; left: 23px; bottom: 0px; width: 1px; height: 260px; background: #f4f4f4; background: rgba(0,0,0,.04); }
+.vert { position: absolute; right: 0; bottom: 0px; width: 1px; height: 260px; background: #f4f4f4; background: rgba(0,0,0,.04); }
+.vert_2 { position: absolute; right: 23px; bottom: 0px; width: 1px; height: 260px; background: #f4f4f4; background: rgba(0,0,0,.04); }
+
+
+
+.swellcast_forecast_header h5 { float: left; padding: 0 0 0 14px !important; width: 60%; font-size: 16px; font-weight: bold; margin: 0 !important; text-transform: capitalize; color: inherit !important; }
+.swellcast_forecast_header p { float: right; padding: 2px 14px 0 0 !important; width: 140px; text-align: right; font-size: 12px; font-weight: bold; margin: 0 !important; color: inherit !important; }
+
+
+.swellcast_forecast_footer p { text-align: center; color: #888; font-size: 10px; font-weight: bold; margin: 0 !important; text-shadow: 0 1px 0 #FFF; height: 32px; line-height: 36px; }
+
+a.swellcast_visit { position: absolute; top: 0; right: 0; display: block; width: 32px; height: 100%; background: url(http://s3.amazonaws.com/swellcast-images/embed/embed_forward.svg) center center no-repeat; }
+
+
+.swellcast_forecast_header a:link, .swellcast_forecast_header a:visited { color: #A8A8A8; text-decoration: underline; }
+.swellcast_forecast_header a:hover, .swellcast_forecast_header a:active { color: #A8A8A8; text-decoration: underline; }
+
+/*---------------------------------------
+
+	MISC
+
+-----------------------------------------*/
+
+.blink_text {
+    animation-name: blinker;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+    -webkit-animation-name: blinker;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+}
+
+@-moz-keyframes blinker {  /* Decimal not necessary, 0 and 1 is enough */
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+
+@-webkit-keyframes blinker {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+
+@keyframes blinker {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+
+img { border: none; }
+a { outline: none; }
+
+
